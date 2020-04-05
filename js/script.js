@@ -5,14 +5,21 @@ function myFunc(numbers) {
   });
 
     myFunc2(stringArray);
- 
+    
+ }
 function myFunc2(stringArray) {
   var numberReplace = ["1","2","3"];
   var phrases = ["beep", "boop", "won't you be my neighbor"];
   var output = [];
+  // var outputJoin = output.join(" ");
+  // console.log(outputJoin);
+  console.log(output);
 
-  if (stringArray.includes(numberReplace[0])) {
-      output.push(phrases[0]);
+  if (stringArray.includes(numberReplace[1])) {
+      output.push(phrases[1]);
+  }else {
+    output.push(stringArray);
+    
   }
 }
 
@@ -30,7 +37,7 @@ $(document).ready(function() {
     event.preventDefault();
      var inputNumbers = $("input").val();
       
-     var outputJoin = output.join("")
+    
      myFunc(inputNumbers);
   });
 });
