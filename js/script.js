@@ -8,17 +8,15 @@ function myFunc(numbers) {
     
  }
 function myFunc2(stringArray) {
-  var numberReplace = ["1","2","3"];
-  var phrases = ["beep", "boop", "won't you be my neighbor"];
-  var output = [];
-  // var outputJoin = output.join(" ");
-  // console.log(outputJoin);
-  console.log(output);
+  var string1 = stringArray.join(" ");
+  var numberReplace = ["1","2","3"]
+  var numb1 = /1/gi;
+  console.log(string1);
 
-  if (stringArray.includes(numberReplace[1])) {
-      output.push(phrases[1]);
+  if (string1.includes(numberReplace[0])) {
+      $("#result").text(string1.replace(numb1,"beep"));
   }else {
-    output.push(stringArray);
+      // stringArray.push();
     
   }
 }
@@ -36,8 +34,8 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
      var inputNumbers = $("input").val();
-      
-    
+     var output = [];
      myFunc(inputNumbers);
+    //  $("#result").text(output);
   });
 });
