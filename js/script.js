@@ -5,16 +5,18 @@ function myFunc(numberInput) {
   }
 
   console.log(i);
+  
+var numberArray = numberInput.split("").map(function(number) {
+    console.log(numberArray);
+    return number.toString();
   }
-
      
  
   // const output = [];
   // var outputJoin = output.join(" ");
   // var numberReplace = ["1","2","3"]; 
-  // var numberArray = numberInput.split("").map(function(number) {
-  //   return number.toString;
-
+  
+    
   // });
   //   $(".jumbotron").show();
   //   $("#result").html(outputJoin);
