@@ -11,9 +11,11 @@ $(document).ready(function() {
      var stringArray = inputNumbers.split(" ");
      console.log(stringArray);
      var numberArray = stringArray.map(_=>_|0);
-    console.log(numberArray);
-   
-      
+    console.log(numberArray)
+    for (var i = 0; i <= numberArray[0].lenght; i++) {
+    }
+      console.log(i);
+      console.log(Math.floor(numberArray[0]));
     // for ( var i = inputNumbers++ ) {
       //  console.log(numberArray);
     // }
@@ -24,7 +26,7 @@ $(document).ready(function() {
     //  myFunc(i);
 
      $(".jumbotron").show();
-     $("#result").html(numberArray);
+     $("#result").html(i);
     
   });
 });

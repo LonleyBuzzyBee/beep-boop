@@ -51,8 +51,8 @@ $(document).ready(function() {
     event.preventDefault();
      var inputNumbers = parseInt($("#count").val());
    
-    // for (var i = 0; i <= inputNumbers; i++) {
-    // }
+    for (var i = 0; i <= inputNumbers; i++) {
+    }
 
      myFunc(inputNumbers);
 
