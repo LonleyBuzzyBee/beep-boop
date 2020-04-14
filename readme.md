@@ -1,6 +1,6 @@
 # _Beep Boop_
 
-#### _ A program designed to count up to a submitted number and replace the numbers 1 2 and 3 with phrases. version 1 latest update 2020 _
+####  A program designed to count up to a submitted number and replace the numbers 1 2 and 3 with phrases. version 1 latest update 2020 
 
 #### By _**Mai .C**_
 
