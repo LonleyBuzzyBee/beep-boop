@@ -29,7 +29,7 @@ _In Terminal:_
 * Clone the file from GitHub with HTTPS
 ```git clone https://github.com/LonleyBuzzyBee/beep-boop.git```
 * Open file in your preferred text editor
-* On Mac: ```open -a {your text editor} pizza--parlor```
+* On Mac: ```open -a {your text editor} beep-boop```
 * On Windows: ```beep-boop```
 
 _To Download Manually:_
