@@ -1,3 +1,18 @@
+body {
+  background-image: linear-gradient(to right,  #cfd8e8, #b3ceff, #78a8ff );
+  text-align: center;
+}
+.container {
+padding: 10%;
+
+}
 .jumbotron {
   display: none;
 }
+img {
+  height: 25%;
+  width: 25%;
+  float: inherit;
+  margin-bottom: 10px;
+}
+
